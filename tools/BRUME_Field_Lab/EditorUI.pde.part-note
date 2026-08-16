@@ -1,0 +1,1 @@
+EditorUI.pde is the large UI/controller file for Field Lab. It is intentionally kept as a single Processing tab in the local source package. The full source will be added in the next repository pass using a Git data blob so the Processing sketch remains runnable.
