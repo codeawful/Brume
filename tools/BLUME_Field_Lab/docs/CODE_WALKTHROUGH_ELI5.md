@@ -26,7 +26,7 @@ The code mirrors those boxes.
 
 ---
 
-# 2. `BRUME_Field_Lab.pde` — the front door
+# 2. `BLUME_Field_Lab.pde` — the front door
 
 Processing looks for the `.pde` file that has the same name as the sketch folder.
 
@@ -172,7 +172,7 @@ float envelope = exp(-d * d);
 
 ELI5: imagine a flashlight shining across the B. The center of the beam is strong; the edges fade away. Only the points in the bright part receive the full wave.
 
-That is why BRUME can disturb the waist without making the entire B wobbly.
+That is why BLUME can disturb the waist without making the entire B wobbly.
 
 ---
 
@@ -347,7 +347,7 @@ A preset JSON stores:
 - Every field mask.
 - Raster preview settings.
 
-That means a BRUME visual state can be represented as data rather than a mystery PSD file.
+That means a BLUME visual state can be represented as data rather than a mystery PSD file.
 
 This is the foundation for future collaboration and open source.
 

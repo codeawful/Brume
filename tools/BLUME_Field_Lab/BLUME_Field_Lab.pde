@@ -1,5 +1,5 @@
 /*
-  BRUME FIELD LAB
+  BLUME FIELD LAB
   ----------------
   A geometry-first lettermark design instrument built in Processing 4.
 
@@ -45,7 +45,7 @@ void settings() {
 
 void setup() {
   surface.setResizable(true);
-  surface.setTitle("BRUME FIELD LAB — Lettermark Geometry Instrument");
+  surface.setTitle("BLUME FIELD LAB — Lettermark Geometry Instrument");
 
   appModel = new AppModel(this);
   history = new HistoryManager(appModel, 80);
@@ -58,7 +58,7 @@ void setup() {
   appModel.addField(new WaveField());
   appModel.addField(new SliceField());
   appModel.activeFieldIndex = 0;
-  appModel.loadBrumeStarterState();
+  appModel.loadBlumeStarterState();
   history.reset();
 }
 
