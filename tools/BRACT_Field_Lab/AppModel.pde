@@ -92,7 +92,7 @@ class AppModel {
     markDirty();
   }
 
-  void loadBlumeStarterState() {
+  void loadBractStarterState() {
     fields.clear();
     WaveField wave = new WaveField();
     wave.set("amplitude", 0.075f);

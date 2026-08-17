@@ -1,5 +1,5 @@
 /*
-  Compact UI/controller for BLUME Field Lab.
+  Compact UI/controller for BRACT Field Lab.
   ELI5: this file is the dashboard. The geometry math lives elsewhere;
   this class only draws controls and translates mouse/keyboard gestures into edits.
 */
@@ -50,7 +50,7 @@ class EditorUI {
   void drawTop() {
     noStroke(); fill(app.themePanel); rect(0,0,width,topH);
     stroke(app.themeLine); line(0,topH-1,width,topH-1);
-    fill(app.themeText); textAlign(LEFT,CENTER); textSize(13); text("BLUME / FIELD LAB",16,20);
+    fill(app.themeText); textAlign(LEFT,CENTER); textSize(13); text("BRACT / FIELD LAB",16,20);
     fill(app.themeMuted); textSize(9); text("GEOMETRY-FIRST LETTERMARK INSTRUMENT",16,38);
     float x=280;
     x=button("FONT","font.load",x,13,58,30)+7;
@@ -280,8 +280,8 @@ class EditorUI {
     else if (k=='m'||k=='M') { maskMode=!maskMode; sculptMode=false; nodeMode=false; }
     else if (k=='a'||k=='A') { app.animate=!app.animate; app.markDirty(); }
     else if (k=='r'||k=='R') randomize();
-    else if (k=='p'||k=='P') selectOutput("Save BLUME preset","presetOutputSelected");
-    else if (k=='l'||k=='L') selectInput("Open BLUME preset","presetFileSelected");
+    else if (k=='p'||k=='P') selectOutput("Save BRACT preset","presetOutputSelected");
+    else if (k=='l'||k=='L') selectInput("Open BRACT preset","presetFileSelected");
     else if (k=='z'||k=='Z') history.undo();
     else if (k=='y'||k=='Y') history.redo();
     else if (k>='1'&&k<='6') variants.recall((int)(k-'1'));
@@ -299,8 +299,8 @@ class EditorUI {
 
   void action(String id) {
     if (id.equals("font.load")) selectInput("Choose a .ttf or .otf font","fontFileSelected");
-    else if (id.equals("preset.save")) selectOutput("Save BLUME preset","presetOutputSelected");
-    else if (id.equals("preset.load")) selectInput("Open BLUME preset","presetFileSelected");
+    else if (id.equals("preset.save")) selectOutput("Save BRACT preset","presetOutputSelected");
+    else if (id.equals("preset.load")) selectInput("Open BRACT preset","presetFileSelected");
     else if (id.equals("export.svg")) selectOutput("Export vector SVG","svgOutputSelected");
     else if (id.equals("export.png")) selectOutput("Export PNG","pngOutputSelected");
     else if (id.equals("history.undo")) history.undo();

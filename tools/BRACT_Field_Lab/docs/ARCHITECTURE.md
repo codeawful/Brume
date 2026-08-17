@@ -2,7 +2,7 @@
 
 ## Design goal
 
-Keep the **letterform engine independent from BLUME-specific aesthetics** so the project can later become a collaboration/open-source instrument.
+Keep the **letterform engine independent from BRACT-specific aesthetics** so the project can later become a collaboration/open-source instrument.
 
 ## Runtime data flow
 
@@ -53,7 +53,7 @@ Local Font (.ttf/.otf) or System Font
 
 # File responsibilities
 
-## `BLUME_Field_Lab.pde`
+## `BRACT_Field_Lab.pde`
 Composition root and event forwarding.
 
 ## `AppModel.pde`
@@ -98,7 +98,7 @@ Immediate-style custom UI, direct manipulation, Sculpt, Nodes, mask painting, va
    - If a design cannot be recreated from its saved state, it is not a proper generative identity asset.
 
 5. **Open-source core should not know the brand name.**
-   - The current UI can say BLUME.
+   - The current UI can say BRACT.
    - Engine classes should stay generic.
 
 6. **Field order is semantic.**

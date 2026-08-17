@@ -23,7 +23,7 @@ A designer/art director creating a logo or lettermark who wants:
 
 ---
 
-# BLUME-specific creative target
+# BRACT-specific creative target
 
 The canonical `B` should be able to exist in at least four states:
 
@@ -174,7 +174,7 @@ b.fields()
  .add(new WaveField().amplitude(.07f).frequency(9).focusY(.51f))
  .add(new SliceField().amplitude(.04f).bands(70));
 
-SVG.write(b, "blume-b.svg");
+SVG.write(b, "bract-b.svg");
 ```
 
 The UI then becomes one client of the engine rather than the engine itself.
@@ -190,7 +190,7 @@ Recommended gate:
 - Stable preset format with migration/versioning.
 - Automated tests for field determinism and SVG validity.
 - No brand-owned font files bundled.
-- No hard dependency on BLUME artwork.
+- No hard dependency on BRACT artwork.
 - Example public-domain/open fonts only, or none bundled.
 - CONTRIBUTING guide.
 - Code of Conduct if community contribution is desired.

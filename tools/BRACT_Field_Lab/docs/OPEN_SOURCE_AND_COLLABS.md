@@ -4,7 +4,7 @@
 
 Field Lab should be able to say:
 
-> Originally built as an internal instrument while designing the BLUME identity. Released so other designers can subject their own letterforms to the same kind of controlled visual physics.
+> Originally built as an internal instrument while designing the BRACT identity. Released so other designers can subject their own letterforms to the same kind of controlled visual physics.
 
 That is much stronger than launching an effect generator with no provenance.
 
@@ -16,11 +16,11 @@ A collaboration can exchange **behavior**, not only logos.
 
 Example:
 
-1. BLUME saves a field recipe.
+1. BRACT saves a field recipe.
 2. Collaborator loads their lettermark.
 3. The same field recipe behaves differently because their geometry is different.
 4. Collaborator sends back one of their field recipes.
-5. BLUME applies it to the canonical B.
+5. BRACT applies it to the canonical B.
 
 The collaboration becomes:
 
@@ -87,4 +87,4 @@ field-lab/
 └── engine/
 ```
 
-Long term, separate the generic engine from a BLUME skin/example.
+Long term, separate the generic engine from a BRACT skin/example.

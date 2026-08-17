@@ -1,7 +1,7 @@
 # TROUBLESHOOTING
 
 ## Processing says the sketch folder name is wrong
-The main file is `BLUME_Field_Lab.pde`, so the parent folder must be named `BLUME_Field_Lab`.
+The main file is `BRACT_Field_Lab.pde`, so the parent folder must be named `BRACT_Field_Lab`.
 
 ## Font fails to load
 Try a normal desktop `.ttf` or `.otf`. Variable/color fonts and unusual wrappers may not behave uniformly through Java's `Font.createFont` path.

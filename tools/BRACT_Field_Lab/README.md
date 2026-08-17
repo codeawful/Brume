@@ -1,10 +1,10 @@
-# BLUME FIELD LAB
+# BRACT FIELD LAB
 
 **A geometry-first lettermark design instrument for Processing 4.**
 
-BLUME Field Lab is not meant to be a “glitch filter.” Its first job is to help you start with a real font glyph, pull the actual outline into editable geometry, push that geometry through controlled mathematical fields, protect important anatomy, hand-sculpt the result, and export a new vector lettermark.
+BRACT Field Lab is not meant to be a “glitch filter.” Its first job is to help you start with a real font glyph, pull the actual outline into editable geometry, push that geometry through controlled mathematical fields, protect important anatomy, hand-sculpt the result, and export a new vector lettermark.
 
-The BLUME `B` is the first use case. The code is intentionally generic enough to load other glyphs, short wordmarks, and other fonts later.
+The BRACT `B` is the first use case. The code is intentionally generic enough to load other glyphs, short wordmarks, and other fonts later.
 
 ---
 
@@ -87,8 +87,8 @@ Processing expects the main sketch file to live in a folder with the same name.
 Keep this exactly like this:
 
 ```text
-BLUME_Field_Lab/
-├── BLUME_Field_Lab.pde
+BRACT_Field_Lab/
+├── BRACT_Field_Lab.pde
 ├── AppModel.pde
 ├── EditorUI.pde
 ├── Fields.pde
@@ -107,7 +107,7 @@ BLUME_Field_Lab/
 Double-click:
 
 ```text
-BLUME_Field_Lab.pde
+BRACT_Field_Lab.pde
 ```
 
 or use **File → Open** inside Processing.
@@ -124,7 +124,7 @@ Press **LOAD FONT** or keyboard shortcut **F** and choose a `.ttf` or `.otf` fil
 
 ---
 
-# 3. Your first BLUME session
+# 3. Your first BRACT session
 
 Do this before trying to understand every knob.
 
@@ -185,7 +185,7 @@ Imagine printing a `B` on a rubber sheet.
 
 A cheap effect tool photographs the sheet, smears the photo, and gives you a new photo.
 
-BLUME Field Lab instead asks the font:
+BRACT Field Lab instead asks the font:
 
 > “Where is the actual edge of this B?”
 
@@ -290,7 +290,7 @@ The architecture is designed so those can be added without rewriting the concept
 
 # 10. Recommended development direction
 
-For BLUME logo creation, prioritize in this order:
+For BRACT logo creation, prioritize in this order:
 
 1. Better curve geometry and cubic Bézier reconstruction.
 2. Native SVG import and re-export.

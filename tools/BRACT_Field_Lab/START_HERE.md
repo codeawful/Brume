@@ -1,16 +1,16 @@
-# START HERE — BLUME FIELD LAB
+# START HERE — BRACT FIELD LAB
 
 If you only read one file before running the tool, read this one.
 
 ## What this is
 
-BLUME Field Lab is a Processing 4 lettermark design instrument. It is built to help design the BLUME `B` by manipulating **real font-outline geometry**, not by applying a filter to a screenshot of a letter.
+BRACT Field Lab is a Processing 4 lettermark design instrument. It is built to help design the BRACT `B` by manipulating **real font-outline geometry**, not by applying a filter to a screenshot of a letter.
 
 ## Fastest path to first run
 
 1. Install Processing 4.
-2. Keep the `BLUME_Field_Lab` folder intact.
-3. Open `BLUME_Field_Lab.pde` in Processing's Java mode.
+2. Keep the `BRACT_Field_Lab` folder intact.
+3. Open `BRACT_Field_Lab.pde` in Processing's Java mode.
 4. Press Run.
 5. Press `F` or click **LOAD FONT** and choose a `.ttf` or `.otf`.
 6. Leave the glyph as `B` for your first session.
